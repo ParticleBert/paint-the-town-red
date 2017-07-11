@@ -1,0 +1,8 @@
+gmapsupp
+mapname=PTTR
+style-file=mkgmap-r3785/examples/styles
+style=pttr
+output-dir=garmin
+description=Paint the Town Red
+family-id=427
+read-config=maps/template.args
