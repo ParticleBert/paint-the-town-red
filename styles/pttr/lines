@@ -15,12 +15,12 @@ ref ~ '(k|K)[ ]?[0-9]{1,4}' { name '${ref}' } [0x04 road_class=4 level 4]
 
 # Tagge alle Strassen
 highway=primary|highway=primary_link {set mkgmap:strasse='yes'}
-highway=secundary|highway=secundary_link {set mkgmap:strasse='yes'}
+highway=secondary|highway=secondary_link {set mkgmap:strasse='yes'}
 highway=tertiary|highway=tertiary_link {set mkgmap:strasse='yes'}
 highway=unclassified|highway=residential {set mkgmap:strasse='yes'}
 
 # Rest-Strassen
-mkgmap:strasse=yes & ref!=* [0x05 road_class=4 level 2]
+mkgmap:strasse=yes & ref!=* [0x06 road_class=4 level 2]
 
 # ref! =* { name '${name}' } 
 
