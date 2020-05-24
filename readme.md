@@ -1,22 +1,22 @@
 # Paint the Town red
 
-5m
-8m
-12m
-20m
-30m
-50m
-80m
-120m
-200m
-300m
-500m
-800m *
-1.2km
-2km
-3km
-5km
-8km
+5m                          Resolution 24
+8m                          Resolution 24
+12m                         Resolution 24
+20m                         Resolution 24
+30m                         Resolution 24
+50m                         Resolution 24
+80m                         Resolution 24
+120m                        Resolution 24
+200m    RGBS    Level 0     Resolution 23
+300m    RGB     Level 1     Resolution 23
+500m    RGB     Level 2     Resolution 23
+800m    RGB     Level 2     Resolution 22, 21
+1.2km   RGB     Level 3
+2km     RGB     Level 4
+3km     RGB     Level 4
+5km     G       Level 5     Resolution 19
+8km     -       Level 6     Resolution 18
 12km
 20km
 30km

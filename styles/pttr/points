@@ -9,5 +9,5 @@
 # for more information.
 
 # Tankstellen
-amenity=fuel {name = $operator} [0x02f01 resolution 2]
-amenity=stripclub [0x2f02 level 1]
+amenity=fuel {name = $operator} [0x02f01 resolution 20]
+amenity=stripclub [0x2f02 resolution 20]
