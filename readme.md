@@ -1,4 +1,25 @@
-# Paint the Town red
+# Paint the Town Red
+
+This script generates a GPS Map which can be used by motorbikers, drivers of convertables and everyone else who likes to enjoy smaller roads. The script takes road data from the Openstreetmap projects, separates it in four chunks and color-codes the result. In the resulting map are:
+
+1. Small and medium streets colored green. These are the ones to be used.
+2. Larger trunks are colored yellow.
+3. Motorways are red.
+4. All other streets are grey and left in as orientation.
+
+The scripts generates an **gmapsupp.img**, which can be used by the GPS unit.
+
+Because we are real bikers there are only two types of Points of Interests: Gas Stations and Stripclubs.
+
+I have made all experimentations using a Garmin Dakota 20.
+
+# Knowledge
+
+## Resolution
+
+These are the resolutions I have found out on my Garmin Dakota 20. These resolutions are only valid for streets. User-POI, Map-POI etc. have other settings and behave differently.
+
+
 
 5m                          Resolution 24
 8m                          Resolution 24

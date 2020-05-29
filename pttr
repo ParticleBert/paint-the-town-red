@@ -2,7 +2,7 @@
 # Kommentar
 # mkgmap --gmapsupp --mapname=13371337 --style-file=/home/christian/Dokumente/paint-the-town-red/styles/pttr -c split/template.args --output-dir=/home/christian/Dokumente/paint-the-town-red/garmin --description="Paint the Town Red"
 
-mkgmap -c /home/christian/Dokumente/paint-the-town-red/run_options /home/christian/Dokumente/paint-the-town-red/pttr.typ
+mkgmap -c /home/christian/Dokumente/paint-the-town-red/run_options /home/christian/Dokumente/paint-the-town-red/pttr_typfile.txt
 cp ./garmin/gmapsupp.img /media/christian/GARMIN_256/Garmin/gmapsupp.img
 sync
 umount /media/christian/GARMIN
