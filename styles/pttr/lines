@@ -23,12 +23,13 @@ highway=unclassified {set mkgmap:reststrasse='yes'}
 highway=residential {set mkgmap:reststrasse='yes'}
 
 # Paint
-mkgmap:autobahn=yes [0x01 road_class=4 resolution 20]
-mkgmap:schnellstrasse=yes [0x02 road_class=3 resolution 20]
-mkgmap:bundesstrasse=yes [0x03 road_class=3 resolution 22]
-mkgmap:landesstrasse=yes [0x04 road_class=2 resolution 22]
-mkgmap:kreisstrasse=yes [0x05 road_class=1 resolution 22]
-mkgmap:reststrasse=yes [0x06 road_class=0 resolution 24]
+mkgmap:autobahn=yes [0x01 road_class=4 resolution 22-24 continue]
+mkgmap:autobahn=yes [0x07 road_class=4 resolution 20-18]
+mkgmap:schnellstrasse=yes [0x02 road_class=3 resolution 18-24]
+mkgmap:bundesstrasse=yes [0x02 road_class=3 resolution 18-24]
+mkgmap:landesstrasse=yes [0x03 road_class=2 resolution 22-24]
+mkgmap:kreisstrasse=yes [0x03 road_class=1 resolution 22-24]
+mkgmap:reststrasse=yes [0x04 road_class=0 resolution 24]
 
 
 # -----------------------------------------------------------------------------

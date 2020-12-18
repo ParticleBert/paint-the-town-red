@@ -1,0 +1,7 @@
+#!/bin/bash
+# Kommentar
+# mkgmap --gmapsupp --mapname=13371337 --style-file=/home/christian/Dokumente/paint-the-town-red/styles/pttr -c split/template.args --output-dir=/home/christian/Dokumente/paint-the-town-red/garmin --description="Paint the Town Red"
+
+mkgmap-splitter --output-dir=./split/nordrhein_westfalen/ ./downloads/nordrhein-westfalen-latest.osm.pbf
+
+

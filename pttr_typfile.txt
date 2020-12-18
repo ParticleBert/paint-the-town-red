@@ -1,7 +1,17 @@
+; Autobahn			2:1	0x01
+; Schnellstrasse	8:3	0x02
+; Bundesstrasse		8:3	0x02
+; Landesstrasse		8:1	0x03
+; Kreisstrasse		8:1	0x03
+; Reststrasse		2:0	0x04
+
+; Breite Höhe AnzahlDerFarben AnzahlDerZeichenProPixelwert
+
+; Autobahn 0x01
 [_line] 
 Type=0x00100
-LineWidth=4
-BorderWidth=2
+LineWidth=2
+BorderWidth=1
 UseOrientation=Y
 String1=0x02,Autobahn 
 ExtendedLabels=Y
@@ -9,13 +19,14 @@ FontStyle=Default
 CustomColor=No
 Xpm="0 0 2 0"
 "0 c #FFFFFF"
-"1 c #E2202C"
+"1 c #1B5583"
 [end]
 
+; Schnellstrasse, Bundesstrasse 0x02
 [_line] 
 Type=0x00200
-LineWidth=4
-BorderWidth=2
+LineWidth=8
+BorderWidth=3
 UseOrientation=Y
 String1=0x02,Bundesstrasse 
 ExtendedLabels=Y
@@ -23,13 +34,14 @@ FontStyle=Default
 CustomColor=No
 Xpm="0 0 2 0"
 "0 c #FFFFFF"
-"1 c #FDC02F"
+"1 c #000000"
 [end]
 
+; Landesstrasse, Kreisstrasse 	0x03
 [_line] 
 Type=0x00300
-LineWidth=4
-BorderWidth=2
+LineWidth=8
+BorderWidth=1
 UseOrientation=Y
 String1=0x02,Landesstrasse 
 ExtendedLabels=Y
@@ -37,13 +49,14 @@ FontStyle=Default
 CustomColor=No
 Xpm="0 0 2 0"
 "0 c #FFFFFF"
-"1 c #2C992D"
+"1 c #000000"
 [end]
 
+; Reststrasse 					0x04
 [_line] 
 Type=0x00400
 LineWidth=2
-BorderWidth=1
+BorderWidth=0
 UseOrientation=Y
 String1=0x02,Kreisstrasse 
 ExtendedLabels=Y
@@ -51,7 +64,7 @@ FontStyle=Default
 CustomColor=No
 Xpm="0 0 2 0"
 "0 c #FFFFFF"
-"1 c #2C992D"
+"1 c #000000"
 [end]
 
 [_line] 
@@ -80,6 +93,20 @@ CustomColor=No
 Xpm="0 0 1 0"
 "0 c #AAAAAA"
 [end]
+
+[_line] 
+Type=0x00700
+LineWidth=1
+BorderWidth=0
+UseOrientation=Y
+String1=0x02,Autobahn
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
+Xpm="0 0 1 0"
+"0 c #00008B"
+[end]
+
 
 [_polygon]
 Type=0x4F00

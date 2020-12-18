@@ -5,4 +5,4 @@ style=pttr
 output-dir=/home/christian/Dokumente/paint-the-town-red/garmin
 description=Paint the Town Red
 family-id=427
-read-config=/home/christian/Dokumente/paint-the-town-red/split/template.args
+read-config=/home/christian/Dokumente/paint-the-town-red/split/nordrhein_westfalen/template.args
